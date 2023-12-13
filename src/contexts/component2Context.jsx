@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const Component2Context = createContext(null);
 
 const Component2Provider = ({ children }) => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   return (
     <Component2Context.Provider

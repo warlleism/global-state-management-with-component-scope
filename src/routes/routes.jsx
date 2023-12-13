@@ -9,7 +9,7 @@ const Component2Provider = lazy(() => import('../contexts/component2Context'));
 
 const LoadingFallback = <div>Loading...</div>;
 
-const Pages = () => {
+const MyRoutes = () => {
     return (
         <Suspense fallback={LoadingFallback}>
             <BrowserRouter>
@@ -30,4 +30,4 @@ const Pages = () => {
     );
 };
 
-export default Pages;
+export default MyRoutes;
